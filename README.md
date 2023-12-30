@@ -12,9 +12,9 @@ This is a Backend of the Book My Show project where the user data is being fetch
       - for Data storage by MongoDB Connection
 
 ### Endpoint
-- GET -  https://.onrender.com/api/booking
+- GET - https://bookmyshow-server-vk9q.onrender.com/api/booking
        - for getting the booking information from the Database
-- POST - https://.onrender.com/api/booking
+- POST - https://bookmyshow-server-vk9q.onrender.com/api/booking
        - for sending the booking information to the Database 
 
 ### Installation
