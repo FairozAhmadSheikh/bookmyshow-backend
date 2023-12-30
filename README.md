@@ -1,5 +1,5 @@
 # Book-My-Show-Backend
-Author - Mehul Yadav
+Author - Fairoz Ahmad Sheikh
 
 This is a Backend of the Book My Show project where the user data is being fetched, stored, and retrieved flexibly from MongoDB and shown on the UI.
 
