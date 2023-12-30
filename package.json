@@ -1,0 +1,32 @@
+{
+  "name": "bookmyshow-server",
+  "version": "1.0.0",
+  "description": "This is the backend of Book My Show where the user data is being stored and retrieved flexibly from MongoDB and shown on the UI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
+    "run": "node ./index.js",
+    "start": "node index.js",
+    "dev": "nodemon server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Mehul",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-router": "^0.0.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^6.10.1",
+    "node": "^16.17.0",
+    "node-serialize": "0.0.4",
+    "router": "^1.3.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
